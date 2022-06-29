@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/StudyCards/static/css/main.be45df85.css",
+    "main.js": "/StudyCards/static/js/main.3edc4920.js",
+    "static/js/787.64aed2aa.chunk.js": "/StudyCards/static/js/787.64aed2aa.chunk.js",
+    "static/media/Group 608.svg": "/StudyCards/static/media/Group 608.b5bd9b22deb701e65a55e7a7ba662cc3.svg",
+    "static/media/robot_ava.svg": "/StudyCards/static/media/robot_ava.5cc63c0142e30e0208879302e9a850d8.svg",
+    "static/media/add_photo.svg": "/StudyCards/static/media/add_photo.b2e41c8205c6d30db68b4eb9c4462f37.svg",
+    "static/media/logout-svgrepo-com.svg": "/StudyCards/static/media/logout-svgrepo-com.fd8574100be68bec2b5907b4a080298d.svg",
+    "index.html": "/StudyCards/index.html",
+    "static/media/Group 607.svg": "/StudyCards/static/media/Group 607.edd045ca36807acda0969ecc80046c23.svg",
+    "main.be45df85.css.map": "/StudyCards/static/css/main.be45df85.css.map",
+    "main.3edc4920.js.map": "/StudyCards/static/js/main.3edc4920.js.map",
+    "787.64aed2aa.chunk.js.map": "/StudyCards/static/js/787.64aed2aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be45df85.css",
+    "static/js/main.3edc4920.js"
+  ]
+}

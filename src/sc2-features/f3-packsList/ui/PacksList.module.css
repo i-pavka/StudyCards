@@ -1,0 +1,78 @@
+.mainBlock {
+    background: #FEFEFF;
+    border-radius: 8px;
+    display: flex;
+    min-height: 300px;
+    overflow: hidden;
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.settingsSide {
+    background: #ECECF9;
+    padding: 0 24px;
+    width: 244px;
+}
+
+.userChooseButton {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    height: 36px;
+    justify-content: center;
+    line-height: 17px;
+    margin: 20px 0 45px;
+    text-align: center;
+    width: 196px;
+    cursor: pointer;
+}
+
+.searchHeader {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rangeBlock {
+
+}
+
+.rangeBlock h3 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #2D2E46;
+}
+
+.active {
+    align-items: center;
+    background: #847bc4;
+    border-radius: 0 2px 2px 0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.inactive {
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 2px;
+    color: #2D2E46;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.packList {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 48px;
+    width: 100%;
+}
+
+.spinnerSize {
+    width: 50px;
+    height: 50px;
+}

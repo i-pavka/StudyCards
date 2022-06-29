@@ -1,0 +1,99 @@
+.mainBlock {
+  display: flex;
+  max-width: 415px;
+  margin: 20px auto;
+}
+
+.edit {
+  display: flex;
+  min-height: 540px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 15px;
+  height: 40%;
+  border-radius: 15px;
+  background-color: #F9F9FE;
+}
+
+.buttonBlock {
+  gap: 70px;
+  display: flex;
+}
+
+.profileAva {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding-left: 33px;
+}
+
+.defaultAva {
+  box-shadow: 0 0 10px #9f9f9f;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.editPhoto {
+  background-color: #9f9f9f;
+  opacity: 0.5;
+  padding: 0 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  right: 23px;
+  top: 3px;
+  cursor: pointer;
+}
+.profileInput {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  margin: 10px auto;
+  padding: 5px;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid #21268F;
+  border-radius: 0;
+}
+
+.profileInput:focus {
+  background: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.infoSpan {
+  font-size: 12px;
+  opacity: 50%;
+}
+
+.profileError {
+  margin-top: 10px;
+  height: 20px;
+  color: #c22b2b;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 410px) {
+  .buttonBlock {
+    gap: initial;
+  }
+  .edit {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 350px) {
+  .buttonBlock {
+    flex-direction: column;
+  }
+}
